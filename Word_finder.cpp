@@ -3,9 +3,11 @@
 #include<Windows.h>
 #include<strings.h>
 using namespace std;
+
 #define char_int(c) ((int)c - (int)'a')
 #define SIZE (26)
 #define M 10
+
 struct TrieNode
 {
 TrieNode *Child[SIZE];
